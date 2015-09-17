@@ -6,7 +6,7 @@ import requests
 import time
 app = Flask(__name__)
 ACCOUNT_SID = "AC6ac1b036ec6592332e66c53bca225861"
-AUTH_TOKEN = "6262d115a335b5ee58230da65d0920e8"
+AUTH_TOKEN = "SecretSauce"
 
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
 
